@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+int main()
+{
+    //calcular a area do cilindro
+    int altura=8;
+    int raio=2;
+    int area;
+  
+  printf("digite o raio em cm de um cilindro ");
+  scanf("%d", &raio);
+  
+  printf(" digite a altura em cm de um cilindro");
+  scanf("%d", &altura);
+   
+  area= altura*(raio*2);
+  
+  printf("area de  %d\n",area);
+
+  //calcular o volume do cilindro
+
+   float raio=2;
+   float altura=8;
+   float volume;
+   float pi= 3.14;
+   
+   pi * pow(raio)* altura;
+   
+   printf("digite o raio do cilindro em cm");
+   scanf("%f", &raio);
+   
+   printf("digite a altura do cilindro em cm");
+   scanf("%f", &altura);
+   
+   float volume= volume(raio,altura);
+   
+   printf("\nvolume do cilindro: %.2f cmÂ³", volume);
+  
+  return 0
+}
