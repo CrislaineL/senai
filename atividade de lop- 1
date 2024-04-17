@@ -1,0 +1,26 @@
+1-  Escreva um programa para ler 2 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+
+
+
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+ int a,b;
+ 
+  printf("Digite um numero");
+  scanf("%d", &a);
+
+  printf("Digite outro numero");
+  scanf("%d", &b);
+  
+ printf("o maior numero é ");
+
+ if(a>b)
+printf("%d", a);
+ else 
+ printf("%d", b);
+    return 0;
+}
