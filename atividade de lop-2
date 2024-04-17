@@ -1,0 +1,34 @@
+2- Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+
+
+
+#include <stdio.h>
+int main()
+   {
+  
+  char nome [50];
+  float a,b,votar;
+  votar=0;
+  
+  //nome
+  printf("\t Digite o nome da pessoa: ");
+  scanf("%s", nome);
+ 
+  //ano que nasceu
+   printf("Digite 2008: ");
+  scanf("%f",&a);
+  
+  printf("\t Digite o ano que nasceu: ");
+  scanf("%f", &b);
+  
+ 
+  //processamento
+   
+   votar=(a-b);
+   
+   if(votar>16)
+   printf("pode votar");
+   else
+   printf("não pode votar");
+   return 0;
+}
