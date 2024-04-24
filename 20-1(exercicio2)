@@ -1,0 +1,12 @@
+Faça um programa que escreva os numerais de 20 a 1
+*
+#include <stdio.h>
+   int main()
+ {
+     int numeração;
+     for (numeração=20;
+     numeração>=1;
+     numeração--)
+       printf("%d\n", numeração);
+       return 0;
+ }
