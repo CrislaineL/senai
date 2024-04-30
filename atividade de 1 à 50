@@ -1,0 +1,15 @@
+2 - Escrever um programa para exibir os números de 1 a 50 na tela.
+
+#include <stdio.h>
+
+int main()
+{ 
+    int número;
+    for( número = 1 ; número <= 50 ; número++) {
+        printf("%d número\n", número);
+    }
+    
+    
+    
+    return 0;
+}
