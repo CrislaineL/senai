@@ -4,9 +4,10 @@
 
 int main()
 { 
-    int número;
-    for( número = 1 ; número <= 50 ; número++) {
+    int número=1;
+    while( número <= 50) {
         printf("%d número\n", número);
+        número++;
     }
     
     
