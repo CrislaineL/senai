@@ -1,0 +1,22 @@
+Faça um programa que implemente um menu onde o usurário deverá selecionar 1 ou 0. Caso seja entrado um número diferente, o programa deverá solicitar uma nova opção.
+*
+#include <stdio.h>
+
+int main()
+{
+ int nota;
+     for(;;){
+ printf("Digite uma número: ");
+ scanf("%d", &nota);
+ 
+ if(nota<=1){
+   break;
+ }
+ else{
+   printf("acesso invalido\n");
+ }
+     }
+   printf("valor valido\n");
+ 
+    return 0;
+}
