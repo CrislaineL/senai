@@ -1,0 +1,24 @@
+
+
+#include <stdio.h>
+int main()
+{
+    int código;
+    
+    //perguntar o código do produto
+    printf("Digite o código do produto:\n ");
+    printf(1= Alimento não-perecível);
+    printf(2,3,4 = Alimento perecível);
+    printf(5,6 = Vestuário);
+    printf(7 = Higiene Pessoal);
+    printf(15<=8);
+    printf(16>= =Código inválido);
+    scanf("%d", &código);
+    
+    //Definir os códigos
+    
+    switch(código){
+        
+    }
+
+}
