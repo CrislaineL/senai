@@ -1,0 +1,27 @@
+Faça um programa que receba uma senha formada de quatro números inteiros, verifique se a senha está correta e, caso não esteja, solicite novamente a senha. Se a senha entrada for a correta, deverá ser apresentada a mensagem “Senha Correta”, caso contrário, “Senha Incorreta”.   
+*
+#include <stdio.h>
+#include <locale.h>
+int main()
+   {
+ int senha=1234;
+ int a;
+for(;;){
+//senha
+ printf("Digite a senha:\n ");
+ scanf("%d", &a);
+ 
+ //conferir senha
+ 
+ if(senha==a){
+ 
+ printf("Senha Correta");
+ break;}
+ else
+ printf("Senha incorreta\n");
+ 
+ 
+}
+   return 0;
+}
+
