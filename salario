@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    
+    char nome[50]; 
+    float salário,imposto_de_renda; 
+    int valor_da_taxa=7;
+//definir variavel
+{
+    printf("Digite o nome do primeiro funcionário: ");
+    scanf("%s", nome);
+    
+    printf("Digite o salario do funcionário: R$");
+    scanf("%f", &salário);
+//Processamento
+valor_da_taxa=7;
+imposto_de_renda =  (salário*valor_da_taxa)/100; 
+
+    
+    printf("O valor do imposto de renda que  %s terá que pagar é de: R$%.2f\n",nome, imposto_de_renda);
+    
+//Segundo fúncionário
+
+//definir variavel
+    printf("\nDigite o nome do segundo funcionário: ");
+    scanf("%s", nome);
+    
+    printf("Digite o salario do funcionário: R$");
+    scanf("%f", &salário);
+//Processamento
+valor_da_taxa=7;
+imposto_de_renda =  (salário*valor_da_taxa)/100; 
+
+    
+    printf("O valor do imposto de renda que  %s terá que pagar é de: R$%.2f\n",nome, imposto_de_renda);
+    
+    
+//Terceiro funcionário
+
+//definir variavel
+    printf("\nDigite o nome do terceiro funcionário: ");
+    scanf("%s", nome);
+    
+    printf("Digite o salario do funcionário: R$");
+    scanf("%f", &salário);
+//Processamento
+valor_da_taxa=7;
+imposto_de_renda =  (salário*valor_da_taxa)/100; 
+
+    
+    printf("O valor do imposto de renda que  %s terá que pagar é de: R$%.2f\n",nome, imposto_de_renda);
+    
+//Quarto funcionário
+//definir variavel
+    printf("\nDigite o nome do quarto funcionário: ");
+    scanf("%s", nome);
+    
+    printf("Digite o salario do funcionário: R$");
+    scanf("%f", &salário);
+//Processamento
+valor_da_taxa=7;
+imposto_de_renda =  (salário*valor_da_taxa)/100; 
+
+    
+    printf("O valor do imposto de renda que  %s terá que pagar é de: R$%.2f\n",nome, imposto_de_renda);
+    
+//Quinto funcionário
+//definir variavel
+    printf("\nDigite o nome do quinto funcionário: ");
+    scanf("%s", nome);
+    
+    printf("Digite o salario do funcionário: R$");
+    scanf("%f", &salário);
+//Processamento
+valor_da_taxa=7;
+imposto_de_renda =  (salário*valor_da_taxa)/100; 
+
+    
+    printf("O valor do imposto de renda que  %s terá que pagar é de: R$%.2f\n",nome, imposto_de_renda);
+    
+
+}
+
+printf("\n   FINALIZADO!!!");
+    return 0;
+    
+}
