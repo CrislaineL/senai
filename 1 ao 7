@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+    int numero;
+    for(;;){
+        //definir variavel
+        printf("digite um numero de 1 ao 7:");
+        scanf("%d", &numero);
+        //processamento
+        if(numero==7){
+            break;
+        }
+        else{
+            printf("numero incorreto\n");
+            
+        }
+    }
+    
+    printf("numero correto\n");
+    
+    printf("finalizado");
+    
+    return 0;
+}
